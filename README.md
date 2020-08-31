@@ -1,0 +1,10 @@
+# projeto-exame
+PROJETO AGENDAMENTO DE EXAMES
+FRAMEWORKS: STRUTS 2 - Core [2.5.22]
+LINGUAGEM: Java Web
+JDK 1.8
+Maven: 3.8.0
+Conexão JDBC : MySQL 5.7
+
+
+
