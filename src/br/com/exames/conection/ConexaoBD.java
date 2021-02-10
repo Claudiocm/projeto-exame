@@ -9,14 +9,14 @@ public class ConexaoBD {
 	private Connection connection;
 	private String url = "jdbc:mysql://localhost:8080/";
 	private String usuario = "root";
-	private String senha = "mysql";
+	private String senha = "$$$$";
 
 	private ConexaoBD() throws SQLException {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             this.connection = DriverManager.getConnection(url, usuario, senha);
         } catch (ClassNotFoundException ex) {
-        	System.out.println("A conex„o com o banco falhou! : " + ex.getMessage());
+        	System.out.println("A conex√£o com o banco falhou! : " + ex.getMessage());
         }
     }
 
